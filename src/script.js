@@ -9,7 +9,7 @@ function displayPoem(response) {
   new Typewriter("#poem-container", {
     strings: [poem],
     autoStart: true,
-    delay: 50,
+    delay: 60,
     cursor: "▍",
   });
 }
